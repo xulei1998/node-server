@@ -2,6 +2,12 @@
 
 ***
 
+## 操作演示
+
+- 启动server：在终端命令行输入`ts-node-dev index.ts `
+
+- 发送请求：在本地Cmder里输入`curl http://localhost:8888`，并在终端得到响应
+
 ## 重要API——http.createServer( )
 
 用http.createServer( )创建一个server实例

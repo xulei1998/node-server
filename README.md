@@ -10,12 +10,12 @@
 import * as http from "http";
 const server = http.createServer();
 ```
+该实例拥有几个事件和方法，其中有**request 事件**和**listen方法**比较重要:
 
-根据[官方文档](http://nodejs.cn/api-v14/http.html#class-httpserver)，知道`http.createServer( )`函数返回的是http.Server类的实例，该实例拥有几个事件和方法，其中有**request 事件**和**listen方法**比较重要。
 
-<img src="images/image-20220302160115853.png" alt="image-20220302160115853" style="zoom:67%;" />
+<img src="images/image-20220302160115853.png" alt="image-20220302160115853" style="zoom:50%;" />
 
-<img src="images/image-20220302160132285.png" alt="image-20220302160132285" style="zoom:67%;" />
+<img src="images/image-20220302160132285.png" alt="image-20220302160132285" style="zoom:50%;" />
 
 ## 请求Request
 

@@ -44,4 +44,4 @@ response.write("1\n"); //设置响应体
 response.end();        //响应结束
 ```
 
-参考：[官方文档](http://nodejs.cn/api-v14/http.html#class-httpserver)
+参考官方文档：[http.Server类](http://nodejs.cn/api-v14/http.html#class-httpserver)
